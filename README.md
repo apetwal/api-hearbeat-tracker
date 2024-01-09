@@ -53,7 +53,7 @@ percentages over time using multiprocess framework.
    Replace `<endpoint_file_path>` with the path to your YAML file containing HTTP endpoint configurations.
 
 
-3. The script will continuously monitor the specified endpoints, printing their availability percentages every 5 seconds.
+3. The script will continuously monitor the specified endpoints, printing their availability percentages every 15 seconds.
 
 ### Configuration
 
