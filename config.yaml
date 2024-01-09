@@ -1,0 +1,8 @@
+# Configuration parameters for the main_script.py
+# thread_pool_size denotes the number of worker thread you want to contribute to the threadpool,greater number increases
+# the parallelization and reduce the runtime. Helpfull when you have a lot of API endpoints in the yaml file
+thread_pool_size: 4
+#Request_time out is set while making GET/POST etc. request so that program is not stuck waiting for a response(in seconds)
+request_timeout: 0.5
+#Specify interval of the heartbeat(in seconds)
+heartbeat_interval: 15
