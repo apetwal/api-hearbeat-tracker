@@ -48,7 +48,11 @@ percentages over time using multiprocess framework.
 
 2. Run the script with the following command (choose one of the script):
     ```bash
+<<<<<<< HEAD
     python heartbeat_detector/heartbeat_detector_v2.py <endpoint_file_path>
+=======
+    python heartbeat_detector.py <endpoint_file_path>
+>>>>>>> 3a3c888a8a1fe0e72ae5621a4f9690ca5a124741
     ```
    Replace `<endpoint_file_path>` with the path to your YAML file containing HTTP endpoint configurations.
 
