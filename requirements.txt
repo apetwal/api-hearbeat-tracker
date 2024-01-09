@@ -2,3 +2,4 @@ pip install PyYAML
 PyYAML~=6.0.1
 pip install requests
 requests~=2.31.0
+multiprocess~=0.70.15

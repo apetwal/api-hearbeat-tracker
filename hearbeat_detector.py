@@ -12,7 +12,6 @@ if __name__ == "__main__":
         sys.exit(1)
     endpoint_file_path = sys.argv[1]
     http_endpoints = get_http_endpoints(endpoint_file_path)
-    http_endpoints = get_http_endpoints(endpoint_file_path)
     with open('config.yaml') as config_file:
         config_data = yaml.safe_load(config_file)
         print("Configuration parameters")
