@@ -25,7 +25,7 @@ percentages over time.
 
 2. Run the script with the following command:
     ```bash
-    python script.py <endpoint_file_path>
+    python heartbeat_detector.py <endpoint_file_path>
     ```
    Replace `<endpoint_file_path>` with the path to your YAML file containing HTTP endpoint configurations.
 
